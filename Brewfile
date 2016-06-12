@@ -11,6 +11,7 @@ tap 'neovim/neovim'
 brew 'ack'
 brew 'atdtool'
 brew 'bash'
+brew 'colordiff'
 brew 'coreutils', args: ['with-gmp']
 brew 'curl', args: ['with-libssh2']
 brew 'ffmpeg', args: ['with-faac', 'with-fontconfig', 'with-freetype', 'with-libvorbis', 'with-libvpx', 'with-tools', 'with-theora', 'with-libvidstab', 'with-zeromq', 'with-libass']
