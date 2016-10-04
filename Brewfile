@@ -18,6 +18,7 @@ brew 'ffmpeg', args: ['with-faac', 'with-fontconfig', 'with-freetype', 'with-lib
 brew 'git', args: ['with-brewed-curl', 'with-brewed-openssl', 'with-pcre', 'with-persistent-https']
 brew 'hg' # mercurial
 brew 'hub'
+brew 'imagemagick', args: ['with-fftw', with-fontconfig', 'with-ghostscript', 'with-liblqr', 'with-librsvg', 'with-webp', 'with-x11']
 brew 'jq'
 brew 'jsawk'
 brew 'lynx'
@@ -67,6 +68,7 @@ cask 'iterm2'
 # cask 'java' ### Prompts for JDK ###
 cask 'karabiner'
 cask 'mactex'
+cask 'markdown-service-tools'
 cask 'noejectdelay'
 cask 'nvalt'
 cask 'prefs-editor'
