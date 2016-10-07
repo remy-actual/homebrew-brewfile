@@ -16,9 +16,11 @@ brew 'coreutils', args: ['with-gmp']
 brew 'curl', args: ['with-libssh2']
 brew 'ffmpeg', args: ['with-faac', 'with-fontconfig', 'with-freetype', 'with-libvorbis', 'with-libvpx', 'with-tools', 'with-theora', 'with-libvidstab', 'with-zeromq', 'with-libass']
 brew 'git', args: ['with-brewed-curl', 'with-brewed-openssl', 'with-pcre', 'with-persistent-https']
+brew 'gnu-sed', args: ['with-default-names']
+brew 'grep', args: ['with-default-names']
 brew 'hg' # mercurial
 brew 'hub'
-brew 'imagemagick', args: ['with-fftw', with-fontconfig', 'with-ghostscript', 'with-liblqr', 'with-librsvg', 'with-webp', 'with-x11']
+brew 'imagemagick', args: ['with-fftw', 'with-fontconfig', 'with-ghostscript', 'with-liblqr', 'with-librsvg', 'with-webp', 'with-x11']
 brew 'jq'
 brew 'jsawk'
 brew 'lynx'
