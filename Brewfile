@@ -24,6 +24,7 @@ brew 'imagemagick', args: ['with-fftw', 'with-fontconfig', 'with-ghostscript', '
 brew 'jq'
 brew 'jsawk'
 brew 'lynx'
+brew 'mongodb'
 brew 'mtr'
 brew 'multitail'
 brew 'mysql'
@@ -56,13 +57,14 @@ mas 'Memory Clean', id: 451444120
 mas 'Parcel - Delivery Tracking', id: 639968404
 mas 'Slack', id: 803453959
 
+cask 'atom' # The hackable text editor backed by Github
 cask 'adium' # open source multi-protocol instant messaging client
 cask 'bitbar' # Put the output from any script or program in your Mac OS X Menu Bar
-cask 'cheatsheet'
 cask 'firefox'
 cask 'flux'
 cask 'gitbook-editor'
 cask 'gitkraken'
+cask 'google-cloud-sdk'
 cask 'google-chrome'
 cask 'google-drive'
 cask 'google-hangouts'
@@ -89,4 +91,4 @@ cask 'tcl'
 cask 'transmission'
 cask 'valentina-studio'
 cask 'vlc'
-# cask 'xquartz' ### Hangs, cannot unmount DMG ""
+cask 'xquartz' ### Hangs, cannot unmount DMG ""
